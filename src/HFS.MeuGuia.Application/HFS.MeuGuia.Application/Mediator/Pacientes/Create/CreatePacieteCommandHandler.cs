@@ -1,9 +1,9 @@
 ﻿
 namespace HFS.MeuGuia.Application.Mediator.Pacientes.Create;
 
-public class CreatePacieteCommandHandler : IRequestHandler<CreatePacieteCommand, PacienteDto>
+public class CreatePacieteCommandHandler : IRequestHandler<CreatePacienteCommand, PacienteDto>
 {
-    public Task<PacienteDto> Handle(CreatePacieteCommand request, CancellationToken cancellationToken)
+    public Task<PacienteDto> Handle(CreatePacienteCommand request, CancellationToken cancellationToken)
     {
         throw new NotImplementedException();
     }
