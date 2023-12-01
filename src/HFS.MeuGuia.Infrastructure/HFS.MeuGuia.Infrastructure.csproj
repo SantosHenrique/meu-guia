@@ -1,9 +1,17 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup Label="Pacotes">
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.0" />
+	</ItemGroup>
+
+	<ItemGroup Label="MeuGuia">
+	  <ProjectReference Include="..\HFS.MeuGuia.Domain\HFS.MeuGuia.Domain.csproj" />
+	</ItemGroup>
 
 </Project>
