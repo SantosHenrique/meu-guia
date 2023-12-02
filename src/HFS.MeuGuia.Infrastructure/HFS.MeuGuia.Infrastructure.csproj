@@ -2,16 +2,23 @@
 
 	<PropertyGroup>
 		<TargetFramework>net8.0</TargetFramework>
-		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
 	</PropertyGroup>
 
 	<ItemGroup Label="Pacotes">
+		<PackageReference Include="Ardalis.GuardClauses" Version="4.2.0" />
 		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.0" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="8.0.0" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.0">
+		  <PrivateAssets>all</PrivateAssets>
+		  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="8.0.0" />
+		<PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="8.0.0" />
 	</ItemGroup>
 
 	<ItemGroup Label="MeuGuia">
-	  <ProjectReference Include="..\HFS.MeuGuia.Domain\HFS.MeuGuia.Domain.csproj" />
+	  <ProjectReference Include="..\HFS.MeuGuia.Application\HFS.MeuGuia.Application\HFS.MeuGuia.Application.csproj" />
 	</ItemGroup>
 
 </Project>

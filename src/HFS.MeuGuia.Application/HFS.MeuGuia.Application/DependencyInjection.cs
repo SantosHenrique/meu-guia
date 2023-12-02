@@ -3,7 +3,7 @@ using HFS.MeuGuia.Application.Common.Behaviours;
 using Microsoft.Extensions.DependencyInjection;
 using System.Reflection;
 
-namespace HFS.MeuGuia.Application;
+namespace Microsoft.Extensions.DependencyInjection;
 
 public static class DependencyInjection
 {
