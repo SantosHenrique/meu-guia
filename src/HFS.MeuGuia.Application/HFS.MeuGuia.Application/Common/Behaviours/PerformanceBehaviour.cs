@@ -1,6 +1,7 @@
-﻿using MediatR;
-using Microsoft.Extensions.Logging;
+﻿using Microsoft.Extensions.Logging;
 using System.Diagnostics;
+using System.Threading;
+using System.Threading.Tasks;
 
 namespace HFS.MeuGuia.Application.Common.Behaviours
 {

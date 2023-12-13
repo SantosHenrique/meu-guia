@@ -1,6 +1,7 @@
 ﻿
 using FluentValidation.Results;
 
+
 namespace HFS.MeuGuia.Application.Common.Exceptions
 {
     public class ValidationException : Exception
