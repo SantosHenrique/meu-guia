@@ -1,6 +1,7 @@
 ﻿using MediatR.Pipeline;
 using Microsoft.Extensions.Logging;
 
+
 namespace HFS.MeuGuia.Application.Common.Behaviours
 {
     public class LoggingBehaviour<TRequest> : IRequestPreProcessor<TRequest> where TRequest : class
